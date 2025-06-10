@@ -40,4 +40,4 @@ python app_vulnerable.py
 - username: usuario1
 - password: Hola.123
 
-This user has the necessary permissions to perform tests on all protected API operations, including CRUD (Create, Read, Update, Delete) operations on products and users. As a user with the super_admin role, they can authenticate via the POST /login endpoint to obtain a JWT token, which must be included in the Authorization header as Bearer <token> to access protected routes such as /products, /users, and /api.
+This user has the necessary permissions to perform tests on all protected API operations, including CRUD (Create, Read, Update, Delete) operations on products and users. As a user with the super_admin role, they can authenticate via the POST /login endpoint to obtain a JWT token, which must be included in the Authorization header as Bearer <token> to access protected routes such as /products and /users.
